@@ -1,3 +1,4 @@
+'use client'
 import { lusitana } from '@/app/ui/fonts';
 import {
   AtSymbolIcon,
@@ -54,11 +55,11 @@ export default function LoginForm() {
             </div>
           </div>
         </div>
-        <Button className="mt-4 w-full">
+        <Button className="mt-4 w-full" >
           Log in <ArrowRightIcon className="ml-auto h-5 w-5 text-gray-50" />
         </Button>
         <div className="flex h-8 items-end space-x-1">
-          {/* Add form errors here */}
+          {/*for errors*/ }
         </div>
       </div>
     </form>
